@@ -1,0 +1,43 @@
+.encabezado {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0;
+}
+
+body {
+    background-color: rgba(170, 170, 170, 0.521);
+}
+
+.npostuno {
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(59, 199, 199);
+    width: 800px;
+    padding: 0; /* Eliminar padding adicional */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.encabezadouno {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Mantener padding para un mejor espaciado interno */
+    box-sizing: border-box;
+}
+
+.photo {
+    width: 100%;
+    margin: 0; /* Eliminar márgenes alrededor de la imagen */
+    display: block; /* Asegurar que se comporte como un bloque */
+}
+
+.texto {
+    background-color: white;
+    margin: 0; /* Eliminar márgenes alrededor del texto */
+    padding: 10px; /* Agregar padding si se desea espacio interno */
+    text-align: left; /* Cambiar la alineación si es necesario */
+}
